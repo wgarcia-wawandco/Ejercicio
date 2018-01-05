@@ -35,6 +35,9 @@
 
 /*  Colors  */
 
+html{
+  min-width: 1280px;
+}
 .bg-header{
   background-color: #CCCCCC;
 }
