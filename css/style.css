@@ -33,7 +33,7 @@
   color: #8E8E8E;
 }
 .white{
-  color: white;
+  color: white !important;
 }
 
 /*  Containers */
@@ -43,8 +43,8 @@
 }
 
 .footer{
-  padding-top: 40px;
-  padding-bottom: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px
 }
 
 /* Content */
@@ -137,10 +137,9 @@
 .vertical{
   vertical-align: top;
 }
-.right–elements{
+.element{
   display: inline-block;
-  float: right;
-  margin-left: 5px;
+  margin-left: 6px;
 }
 
 /* styles */
@@ -185,6 +184,9 @@ li{
 .explain-2{
   font-size: 14px;
   line-height: normal;
+}
+.text-footer{
+  font-weight: lighter !important;
 }
 
 .image{
