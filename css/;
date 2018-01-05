@@ -5,27 +5,18 @@
 
 @font-face {
     font-family: Helvetica-font-bold;
-    src: url(../fonts/helv-neue/HelveticaNeue-Bold.ttf);
+    src: url(../fonts/helv-neue/HelveticaNeue-bold.ttf);
 }
 
-@font-face {
-    font-family: Helvetica-font-light;
-    src: url(../fonts/helv-neue/HelveticaNeue-Light.ttf);
-}
-
-@font-face {
-    font-family: Helvetica-font-semi-bold;
-    src: url(../fonts/helv-neue/HelveticaNeue-Medium.ttf);
-}
 
 *{
   font-size: 16px;
+  font-weight: lighter;
   line-height: 22px;
   /*border: 1px solid black;*/
   margin: 0;
   padding:0;
   color: #656565;
-  font-family: Helvetica-font-light;
 }
 
 /*  Colors  */
@@ -49,26 +40,18 @@
 .gray-1{
   color: #8E8E8E;
 }
-
-.gray-title{
-  color: #9b9b9b;
-}
 .white{
   color: white !important;
 }
 
 /*  Containers */
 .container-1, .container-2{
-  padding-top: 70px;
-  padding-bottom: 70px;
-}
-.container-3{
   padding-top: 60px;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 
 .footer{
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 20px
 }
 
@@ -89,8 +72,8 @@
 
 /* Menu */
 .menu-header{
-  padding-top: 15px;
-  padding-bottom: 6px;
+  padding-top: 20px;
+  padding-bottom: 5px;
 }
 .home{
   margin-left: 0 !important;
@@ -104,7 +87,7 @@
 }
 
 .menu-header li a{
-  font-family: Helvetica-font-light;
+  font-family: Helvetica-font
   text-decoration: none;
   color: white;
   font-weight: 100;
@@ -120,12 +103,12 @@
 /* Buttons */
 .button-lg{
   color:white;
-  font-size: 15px;
+  font-size: 14pt;
   border-radius: 7px;
-  background-color: #8E8E8E;
+  background-color: #8E8E8E8E;
   text-transform: uppercase;
-  padding:7px 10px;
-  letter-spacing: 1px!important;
+  padding:7px 12px;
+  letter-spacing: normal;
   top: -7px;
 }
 .button-med{
@@ -141,22 +124,18 @@
 
 .button-sm{
   color:white;
-  font-size: 13px;
-  letter-spacing: 1px !important;
+  font-size: 15px;
   border-radius: 5px;
   background-color: #8E8E8E8E;
   text-transform: capitalize;
-  padding: 5px 9px;
+  padding:3px 7px;
   letter-spacing: normal;
   font-weight: bold;
   top: -3px;
 }
 
-[class |= "button"]:hover{
+[class |="button"]:hover{
   background-color: #7E7E7E;
-}
-[class |= "button"]{
-  font-family: Helvetica-font !important;
 }
 
 /* Positions */
@@ -174,18 +153,19 @@
 
 /* styles */
 .title-1{
-  font-size: 28px;
-  font-family: Helvetica-font-semi-bold;
+  font-size: 22pt;
+  font-family: Helvetica-font-bold
 }
 .title-2{
-  font-family: Helvetica-font;
-  letter-spacing: 1px;
-  font-weight: bold;
   font-size: 25px;
 }
 
+.find_more{
+  margin-top: 50px;
+}
+
 .read-more{
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .get-in-touch{
@@ -197,39 +177,22 @@ a{
 }
 
 a.link{
-  letter-spacing: 1px;
   text-decoration: underline;
   font-style: italic;
   color: #656565;
 }
-.get-involved{
-  margin-top: 6px;
-  margin-bottom: 34px;
-}
-
 li{
   list-style: none;
   margin-bottom: 15px;
 }
-
-p, li, .explain-2{
-  font-family: Helvetica-font-light;
-}
 .explain-1{
-  margin-top: 6px;
+  margin-top: 15px;
   line-height: 22px;
-  margin-bottom: 35px;
+  font-size: 14px;
 }
 .explain-2{
-  margin-top: 15px;
-  text-align: justify;
   font-size: 14px;
-  line-height: 22px;
-}
-
-.explain-3{
-  font-size: 14px;
-  line-height: 22px;
+  line-height: normal;
 }
 .text-footer{
   color: #b7b7b7;
@@ -244,15 +207,11 @@ p, li, .explain-2{
 /* columns */
 .column-1{
   display: inline-block;
-  width: 27%;
+  width: 25%;
 }
 .column-2{
   display: inline-block;
-  width: 31.5%;
-}
-
-.pad-2{
-  margin-left: 2%;
+  width: 33%;
 }
 .column-3{
   display: inline-block;
@@ -260,5 +219,5 @@ p, li, .explain-2{
 }
 .column-6{
   display: inline-block;
-  width: 57%;
+  width: 60%;
 }
