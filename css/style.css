@@ -18,6 +18,10 @@
 .bg-header{
   background-color: #CCCCCC;
 }
+
+.bg-footer{
+  background-color: #606060;
+}
 .bg-gray-1{
   background-color: #E5E5E5;
 }
@@ -35,6 +39,11 @@
 /*  Containers */
 .container-1, .container-2{
   padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer{
+  padding-top: 40px;
   padding-bottom: 60px;
 }
 
@@ -125,15 +134,22 @@
   display: inline-block;
   float: right;
 }
-
 .vertical{
   vertical-align: top;
+}
+.right–elements{
+  display: inline-block;
+  float: right;
+  margin-left: 5px;
 }
 
 /* styles */
 .title-1{
   font-size: 22pt;
   font-weight: bold;
+}
+.title-2{
+  font-size: 25px;
 }
 
 .find_more{
@@ -172,11 +188,15 @@ li{
 }
 
 .image{
-  max-width: 100%;
+  width: 100%;
   display: inline-block;
 }
 
 /* columns */
+.column-1{
+  display: inline-block;
+  width: 25%;
+}
 .column-2{
   display: inline-block;
   width: 33%;
