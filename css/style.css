@@ -14,6 +14,11 @@
 }
 
 @font-face {
+    font-family: Helvetica-font-btm-bold;
+    src: url(../fonts/helv-neue/HelveticaNeue-CondensedBlack.ttf);
+}
+
+@font-face {
     font-family: Helvetica-font-semi-bold;
     src: url(../fonts/helv-neue/HelveticaNeue-Medium.ttf);
 }
@@ -29,6 +34,10 @@
 }
 
 /*  Colors  */
+.bg-header, .bg-footer, .bg-gray-1, .bg-gray-2, .bg-gray-3{
+  width: 1280px;
+}
+
 .bg-header{
   background-color: #CCCCCC;
 }
@@ -112,11 +121,6 @@
   font-size: 11.5pt;
 }
 
-.menu-header li a:hover{
-  font-style: italic;
-}
-
-
 /* Buttons */
 .button-lg{
   color:white;
@@ -126,6 +130,7 @@
   text-transform: uppercase;
   padding:7px 10px;
   letter-spacing: 1px!important;
+  font-family: Helvetica-font-btn-bold;
   top: -7px;
 }
 .button-med{
@@ -136,6 +141,7 @@
   text-transform: uppercase;
   padding:6px 20px;
   letter-spacing: normal;
+
   top: -6px;
 }
 
