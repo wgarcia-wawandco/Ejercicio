@@ -182,6 +182,7 @@
   letter-spacing: 1px;
   font-weight: bold;
   font-size: 25px;
+  margin-bottom: 10px;
 }
 
 .read-more{
@@ -197,7 +198,6 @@ a{
 }
 
 a.link{
-  letter-spacing: 1px;
   text-decoration: underline;
   font-style: italic;
   color: #656565;
@@ -244,13 +244,15 @@ p, li, .explain-2{
 /* columns */
 .column-1{
   display: inline-block;
-  width: 27%;
+  width: 25%;
 }
 .column-2{
   display: inline-block;
   width: 31.5%;
 }
-
+.pad-1{
+  margin-left: 1%;
+}
 .pad-2{
   margin-left: 2%;
 }
