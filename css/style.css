@@ -169,7 +169,7 @@
 }
 .element{
   display: inline-block;
-  margin-left: 6px;
+  margin-left: 9px;
 }
 
 /* styles */
@@ -198,8 +198,16 @@ a{
 }
 
 a.link{
-  text-decoration: underline;
+  border-bottom: 1px solid #656565;
   font-style: italic;
+  color: #656565;
+}
+
+a.link-normal{
+  font-family: Helvetica-font;
+  font-size: 14px;
+  border-bottom: 1px solid white;
+  font-style: normal !important;
   color: #656565;
 }
 .get-involved{
@@ -231,9 +239,17 @@ p, li, .explain-2{
   font-size: 14px;
   line-height: 22px;
 }
-.text-footer{
+.text-footer, .text-footer-bold{
+  font-size: 14px;
   color: #b7b7b7;
-  font-weight: lighter !important;
+}
+
+.text-footer{
+    font-weight: lighter !important;
+}
+
+.text-footer-bold{
+  font-family: Helvetica-font;
 }
 
 .image{
